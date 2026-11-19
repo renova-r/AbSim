@@ -1,12 +1,13 @@
 Package: AbSim
 Type: Package
 Title: Time Resolved Simulations of Antibody Repertoires
-Version: 0.2.6
-Date: 2018-8-17
-Author: Alexander Yermanos
+Version: 0.2.6.9001
+Author: Alexander Yermanos [aut, cre]
 Maintainer: Alexander Yermanos <ayermano@ethz.ch>
+Authors@R: person("Alexander", "Yermanos", email = "ayermano@ethz.ch", role = c("aut", "cre"))
 Depends: R(>= 3.1.0), ape, poweRlaw
 Description: Simulation methods for the evolution of antibody repertoires. The heavy and light chain variable region of both human and C57BL/6 mice can be simulated in a time-dependent fashion. Both single lineages using one set of V-, D-, and J-genes or full repertoires can be simulated. The algorithm begins with an initial V-D-J recombination event, starting the first phylogenetic tree. Upon completion, the main loop of the algorithm begins, with each iteration representing one simulated time step. Various mutation events are possible at each time step, contributing to a diverse final repertoire.
+    Compatibility updates by Renova.
 License: GPL-2
 Encoding: UTF-8
 RoxygenNote: 5.0.1

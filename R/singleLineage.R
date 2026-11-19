@@ -168,7 +168,7 @@ singleLineage <- function(max.seq.num,
   SHM_count <- 0
   next_node <- 1
   output_list <- list()
-  if(class(sample.time)=="numeric"){
+  if(identical(class(sample.time), "numeric")){
     for(i in 1:length(sample.time)+3){
       output_list[[i]] <- list()
     }

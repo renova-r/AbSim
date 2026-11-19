@@ -142,7 +142,7 @@ fullRepertoire <- function(max.seq.num,
   SHM_count <- 0
   next_node <- 2
   output_list <- list()
-  if(class(sample.time)=="numeric" && length(sample.time)>0){
+  if(identical(class(sample.time), "numeric") && length(sample.time)>0){
     for(i in seq(1,length(sample.time),2)){
       output_list[[i+3]] <- list()
       output_list[[i+4]] <- list()
