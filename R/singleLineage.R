@@ -216,7 +216,8 @@ singleLineage <- function(max.seq.num,
     }
     is_new_VDJ <- sample(x=c(0,1), replace=TRUE, prob=c(VDJ.branch.prob,
                                                         1- VDJ.branch.prob))
-    if(is_new_VDJ==0 && current_seq_count<max.seq.num && VDJ_count<max.VDJ){
+    # Older R versions used the first sampled value in this condition.
+    if(is_new_VDJ[1L]==0 && current_seq_count<max.seq.num && VDJ_count<max.VDJ){
       seq_array[next_node] <- .VDJ_RECOMBIN_FUNCTION(vseq, dseq,jseq,
                                                      method=vdj.model,
                                                      chain.type=chain.type,

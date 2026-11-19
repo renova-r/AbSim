@@ -15,7 +15,7 @@ install.packages("AbSim", repos = c(
 ))
 ```
 
-Version `0.2.6.9001` is based on [CRAN 0.2.6](https://cran.r-project.org/package=AbSim).
+Version `0.2.6.9002` is based on [CRAN 0.2.6](https://cran.r-project.org/package=AbSim).
 
 ## Credit
 

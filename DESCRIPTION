@@ -1,7 +1,7 @@
 Package: AbSim
 Type: Package
 Title: Time Resolved Simulations of Antibody Repertoires
-Version: 0.2.6.9001
+Version: 0.2.6.9002
 Author: Alexander Yermanos [aut, cre]
 Maintainer: Alexander Yermanos <ayermano@ethz.ch>
 Authors@R: person("Alexander", "Yermanos", email = "ayermano@ethz.ch", role = c("aut", "cre"))
